@@ -41,7 +41,7 @@ def summarize_text(transcript):
 
     
 def boot():
-    #
+    # Comment the function if video downloaded to not redownload the same video on the next run
     download_youtube_video(YOUTUBE_VIDEO_URL, OUTPUT_AUDIO)
     #
     model = whisper.load_model(WHISPER_MODEL)
