@@ -5,7 +5,7 @@ This Python script allows you to summarize YouTube videos using OpenAI's Whisper
 ## Prerequisites
 
 Before you begin, make sure you have the necessary Python libraries and an OpenAI API key:
-
+For windows ensure that ffmeg is installed: https://phoenixnap.com/kb/ffmpeg-windows
 To install run `pip install -r requirements.txt`
 - Python (>=3.6)
 - `whisper` library (for audio transcription)
